@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.apprestaurant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:7:5-28:19
+14        android:allowBackup="true"
+14-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Estudiante\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.apprestaurant.ADM2" />
+23-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:14:9-51
+23-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:14:19-39
+24        <activity
+24-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:15:9-17:53
+25            android:name="com.example.apprestaurant.InfoPopup"
+25-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:16:13-38
+26            android:theme="@style/AppTheme.Popup" />
+26-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:17:13-50
+27        <activity android:name="com.example.apprestaurant.cocinero1" />
+27-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:18:9-47
+27-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:18:19-44
+28        <activity android:name="com.example.apprestaurant.cliente2" />
+28-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:19:9-46
+28-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:19:19-43
+29        <activity android:name="com.example.apprestaurant.cliente1" />
+29-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:20:9-46
+29-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:20:19-43
+30        <activity android:name="com.example.apprestaurant.MainActivity" >
+30-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:21:9-27:20
+30-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:21:19-47
+31            <intent-filter>
+31-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\Estudiante\Desktop\demo\AppRestaurant\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
